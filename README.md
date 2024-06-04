@@ -10,6 +10,8 @@
 The Xy's Video-Store project is a web-based application developed in PHP, designed to manage and facilitate the rental process of videos. It provides features such as browsing available videos, renting videos, and managing user accounts.
 
 # Develop at your machine
+This project uses a lot of dependencies, all of which can be installed using Composer. To contribute to this project, you must install various dependencies. Optionally, you can configure the GitHub workflow to control your semantic versioning.
+### Installation of PHP Dependencies
 
-### Install the neccessary PHP libraries using Composer
+To get started, install 'composer'
 
