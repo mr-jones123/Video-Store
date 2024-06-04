@@ -193,7 +193,7 @@ li.nav-item{
 
 .nav-item a{
     margin-right: 1vw;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 button.nav-btn{
@@ -205,13 +205,49 @@ button.nav-btn{
 
 div.container{
     max-width: 100%;
+    padding: 50px 40px 50px 40px;
     margin-left: auto;
     margin-right: auto;
     background-color: var(--primary);
-    height: 20vh;
+    height: auto;
     width: 50vh;
-    margin-top: 20vh;
+    margin-top: 10vh;
+    margin-bottom: 15vh;
+    border-radius: 10px;
+    text-align: center;
 }
 .container h1{
   color: var(--secondary);
+  text-align: center;
+}
+form.login-form{  
+  text-align: center;
+  margin-top: 8vh;
+}
+div.input-text{
+  margin-bottom: 3vh;
+}
+.input-text input{
+  width: 100%;
+  background: transparent;
+  padding: 4px;
+  font-family: "GeneralSans-Medium";
+  border-color: var(--accent);
+}
+::placeholder{
+  color: var(--background);
+}
+button.btn-login{
+  background-color: var(--accent);
+  color: var(--text);
+  padding: 10px 40px 10px 40px;
+  font-family: 'GeneralSans-Medium';
+  border-radius: 20px;
+  letter-spacing: 0.2;
+  cursor: pointer;
+}
+div.register-here{
+  margin-top: 2vh;
+  font-family: 'GeneralSans-Medium';
+  font-size: 0.9rem;
 }

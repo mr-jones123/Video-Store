@@ -1,3 +1,24 @@
+<?php 
+    require './functions/usersFunctions.php';
+
+    if ($_SERVER['REQUEST_METHOD'] == "POST"){
+        $email = $_POST["Email"];
+        $password = $_POST["Password"];
+        echo "POST array: ";
+        print_r($_POST);
+        echo "Users array: ";
+        print_r($_SESSION['users']);
+        if (validateUser($email, $password) == true){
+            header('Location: home.php');
+            unset($_SESSION['users']);
+            exit;
+        } else {
+            echo "ERROR";
+        }
+    }
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -21,14 +42,18 @@
     </nav>
     <div class="container">
         <h1>Login</h1>
-        <form method="POST">
+        <form class = "login-form" method="POST">
             <div class="input-text">
                 <input type="email" name="Email" placeholder="Email" required>
             </div>
             <div class="input-text">
-                <input type="password" name="Email" placeholder="Password" required>
+                <input type="password" name="Password" placeholder="Password" required>
             </div>
+            <button class="btn-login">Log In</button>
         </form>
+        <div class="register-here">
+        <p>Don't have an account? <span style="color:#6d4dc0;"><u><a href="register.php">Register Here</a></u></span></p>
+        </div>
     </div>
 </body>
 
