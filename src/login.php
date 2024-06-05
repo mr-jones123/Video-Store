@@ -10,10 +10,10 @@
         print_r($_SESSION['users']);
         if (validateUser($email, $password) == true){
             header('Location: home.php');
-            unset($_SESSION['users']);
-            exit;
+            session_destroy();
         } else {
             echo "ERROR";
+            session_destroy();
         }
     }
 ?>

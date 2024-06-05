@@ -232,7 +232,7 @@ div.input-text{
   background: transparent;
   padding: 4px;
   font-family: "GeneralSans-Medium";
-  border-color: var(--accent);
+  border:2px solid var(--accent);
 }
 ::placeholder{
   color: var(--background);
@@ -250,4 +250,13 @@ div.register-here{
   margin-top: 2vh;
   font-family: 'GeneralSans-Medium';
   font-size: 0.9rem;
+}
+
+select#category{
+  background: transparent;
+  margin-bottom:3vh ;
+  width: 100%;
+  padding: 6px;
+  border:2px solid var(--accent);
+  font-family: 'GeneralSans-Medium';
 }
