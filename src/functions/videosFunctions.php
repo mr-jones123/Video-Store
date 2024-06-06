@@ -62,7 +62,7 @@ function printVideos(){
 function deleteDisplayVideos($id){
     foreach ($_SESSION['videos'] as &$video) {
             if($video["ID"] == $id){
-                echo "<p>Are you use you want to delete ".$video["Title"]."</p>";
+                echo "<p>Are you use you want to delete <b>".$video["Title"]."</b></p>";
             }
     }
 }

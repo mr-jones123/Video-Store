@@ -302,3 +302,16 @@ div.view-container-button{
   display: flex;
   justify-content: space-evenly;
 }
+div.delete-container{
+  display: flex;
+  justify-content: center;
+}
+button.btn-delete{
+  margin-left: 5vh;
+  margin-right: 5vh;
+  padding: 5px 15px 5px 15px;
+  font-family: 'GeneralSans-Medium';
+  background-color: var(--accent);
+  color: var(--text);
+  cursor: pointer;
+}
