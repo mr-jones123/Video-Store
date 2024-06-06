@@ -1,0 +1,413 @@
+:root {
+  --text: #e0f4eb;
+  --background: #081710;
+  --primary: #9eddb9;
+  --secondary: #2b3978;
+  --accent: #6d4dc0;
+}
+
+@font-face {
+  font-family: "GeneralSans-Extralight";
+  src: url("../fonts/GeneralSans-Extralight.woff2") format("woff2"),
+    url("../fonts/GeneralSans-Extralight.woff") format("woff"),
+    url("../fonts/GeneralSans-Extralight.ttf") format("truetype");
+  font-weight: 200;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GeneralSans-ExtralightItalic";
+  src: url("../fonts/GeneralSans-ExtralightItalic.woff2") format("woff2"),
+    url("../fonts/GeneralSans-ExtralightItalic.woff") format("woff"),
+    url("../fonts/GeneralSans-ExtralightItalic.ttf") format("truetype");
+  font-weight: 200;
+  font-display: swap;
+  font-style: italic;
+}
+@font-face {
+  font-family: "GeneralSans-Light";
+  src: url("../fonts/GeneralSans-Light.woff2") format("woff2"),
+    url("../fonts/GeneralSans-Light.woff") format("woff"),
+    url("../fonts/GeneralSans-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GeneralSans-LightItalic";
+  src: url("../fonts/GeneralSans-LightItalic.woff2") format("woff2"),
+    url("../fonts/GeneralSans-LightItalic.woff") format("woff"),
+    url("../fonts/GeneralSans-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-display: swap;
+  font-style: italic;
+}
+@font-face {
+  font-family: "GeneralSans-Regular";
+  src: url("../fonts/GeneralSans-Regular.woff2") format("woff2"),
+    url("../fonts/GeneralSans-Regular.woff") format("woff"),
+    url("../fonts/GeneralSans-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GeneralSans-Italic";
+  src: url("../fonts/GeneralSans-Italic.woff2") format("woff2"),
+    url("../fonts/GeneralSans-Italic.woff") format("woff"),
+    url("../fonts/GeneralSans-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+  font-style: italic;
+}
+@font-face {
+  font-family: "GeneralSans-Medium";
+  src: url("../fonts/GeneralSans-Medium.woff2") format("woff2"),
+    url("../fonts/GeneralSans-Medium.woff") format("woff"),
+    url("../fonts/GeneralSans-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GeneralSans-MediumItalic";
+  src: url("../fonts/GeneralSans-MediumItalic.woff2") format("woff2"),
+    url("../fonts/GeneralSans-MediumItalic.woff") format("woff"),
+    url("../fonts/GeneralSans-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+  font-style: italic;
+}
+@font-face {
+  font-family: "GeneralSans-Semibold";
+  src: url("../fonts/GeneralSans-Semibold.woff2") format("woff2"),
+    url("../fonts/GeneralSans-Semibold.woff") format("woff"),
+    url("../fonts/GeneralSans-Semibold.ttf") format("truetype");
+  font-weight: 600;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GeneralSans-SemiboldItalic";
+  src: url("../fonts/GeneralSans-SemiboldItalic.woff2") format("woff2"),
+    url("../fonts/GeneralSans-SemiboldItalic.woff") format("woff"),
+    url("../fonts/GeneralSans-SemiboldItalic.ttf") format("truetype");
+  font-weight: 600;
+  font-display: swap;
+  font-style: italic;
+}
+@font-face {
+  font-family: "GeneralSans-Bold";
+  src: url("../fonts/GeneralSans-Bold.woff2") format("woff2"),
+    url("../fonts/GeneralSans-Bold.woff") format("woff"),
+    url("../fonts/GeneralSans-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GeneralSans-BoldItalic";
+  src: url("../fonts/GeneralSans-BoldItalic.woff2") format("woff2"),
+    url("../fonts/GeneralSans-BoldItalic.woff") format("woff"),
+    url("../fonts/GeneralSans-BoldItalic.ttf") format("truetype");
+  font-weight: 700;
+  font-display: swap;
+  font-style: italic;
+}
+@font-face {
+  font-family: "GeneralSans-Variable";
+  src: url("../fonts/GeneralSans-Variable.woff2") format("woff2"),
+    url("../fonts/GeneralSans-Variable.woff") format("woff"),
+    url("../fonts/GeneralSans-Variable.ttf") format("truetype");
+  font-weight: 200 700;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GeneralSans-VariableItalic";
+  src: url("../fonts/GeneralSans-VariableItalic.woff2") format("woff2"),
+    url("../fonts/GeneralSans-VariableItalic.woff") format("woff"),
+    url("../fonts/GeneralSans-VariableItalic.ttf") format("truetype");
+  font-weight: 200 700;
+  font-display: swap;
+  font-style: italic;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  background-color: var(--background);
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+li{
+    font-family: 'GeneralSans-Medium';
+    list-style: none;
+}
+p{
+  font-family: 'GeneralSans-Regular';
+  overflow-wrap: break-word;
+}
+
+h1{
+  overflow-wrap: break-word;
+  font-family: 'GeneralSans-Bold';
+  font-size: 3rem;
+  color: var(--text);
+}
+h2{
+  overflow-wrap: break-word;
+  font-family: 'GeneralSans-Bold';
+  font-size: 3rem;
+  color: var(--secondary);
+}
+h3{
+  overflow-wrap: break-word;
+  font-family: 'GeneralSans-SemiBold';
+  font-size: 1.6rem;
+  color: var(--secondary);
+}
+
+nav.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 20px 40px 0px 50px;
+}
+li.nav-item{
+    display: inline-block;
+    color: var(--text);
+}
+
+.nav-item a{
+    margin-right: 1vw;
+    font-size: 1.2rem;
+}
+button.nav-btn{
+    padding: 15px 20px 15px 20px;
+    background-color: var(--primary);
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+div.welcome-container{
+  margin-top: 10vh;
+  display: flex;
+  justify-content: space-evenly ;
+}
+div.welcome-screen{
+  width: 20vw;
+  color: var(--text);
+}
+.welcome-screen p{
+  font-family: 'GeneralSans-Regular';
+  font-size: 1.2rem;
+}
+.welcome-screen button{
+  margin-top: 4vh;
+  font-family: 'GeneralSans-Medium';
+  background-color: var(--primary);
+  color: var(--background);
+  padding: 10px 15px 10px 15px;
+}
+div.welcome-image{
+  width: 40vw;
+  height: 20vh;
+  margin-left: 10vw;
+  padding: 0px 20px 0px 20px;
+
+}
+div.flex-box{
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+div.item{
+  background-color: var(--primary);
+  color: var(--secondary);
+  width: 250px;
+  height: 250px;
+  border-radius: 3px;
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+  padding: 20px;
+  cursor: pointer;
+}
+div.item:hover{
+  background:var(--secondary);
+  border: 2px solid var(--accent);
+  color: var(--primary);
+  transform: scale(1.2);
+}
+div.item:hover h2 {
+  color: var(--text); 
+}
+
+div.container{
+    max-width: 100%;
+    padding: 50px 40px 50px 40px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--primary);
+    height: auto;
+    width: 50vh;
+    margin-top: 10vh;
+    margin-bottom: 15vh;
+    border-radius: 10px;
+    text-align: center;
+}
+.container h1{
+  color: var(--secondary);
+  text-align: center;
+}
+form.login-form{  
+  text-align: center;
+  margin-top: 8vh;
+}
+div.input-text{
+  margin-bottom: 3vh;
+}
+.input-text input{
+  width: 100%;
+  background: transparent;
+  padding: 4px;
+  font-family: "GeneralSans-Medium";
+  border:2px solid var(--accent);
+}
+::placeholder{
+  color: var(--background);
+}
+button.btn-login{
+  background-color: var(--accent);
+  color: var(--text);
+  padding: 10px 40px 10px 40px;
+  font-family: 'GeneralSans-Medium';
+  border-radius: 20px;
+  letter-spacing: 0.2;
+  cursor: pointer;
+}
+div.register-here{
+  margin-top: 2vh;
+  font-family: 'GeneralSans-Medium';
+  font-size: 0.9rem;
+}
+div.about-us-wrapper{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10vh;
+  width: 25vw;
+  font-size: 1.5rem;
+  color: var(--text);
+  height: auto;
+  text-align: center;
+}
+div.about-us-wrapper h2{
+  color:var(--accent);
+}
+p#context{
+  font-family: 'GeneralSans-Medium';
+  margin-bottom: 5vh;
+}
+select#category{
+  background: transparent;
+  margin-bottom:3vh ;
+  width: 100%;
+  padding: 6px;
+  border:2px solid var(--accent);
+  font-family: 'GeneralSans-Medium';
+}
+.view-header{
+  color: var(--text);
+  font-family: 'GeneralSans-Bold';
+  text-align: center;
+  margin-top: 10vh;
+  font-size: 2.5rem;
+
+}
+.view-table{
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10vh;
+  
+}
+table{
+  background-color: var(--primary);
+  padding: 10px;
+
+}
+td, th{
+  padding: 20px 10px 20px 10px;
+  border: 2px solid var(--background);
+}
+th{
+  font-family: 'GeneralSans-Bold';
+}
+td{
+  font-family: 'GeneralSans-Regular';
+}
+.btn-table{
+  font-family: 'GeneralSans-Medium';
+  background: transparent;
+  border: 2px solid var(--background);
+}
+div.view-container-button{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10vh;
+}
+.view-button{
+  padding: 10px;
+  background-color: var(--secondary);
+  color: var(--text);
+  font-family: 'GeneralSans-Medium';
+  
+}
+div.delete-container{
+  display: flex;
+  justify-content: center;
+}
+button.btn-delete{
+  margin-left: 5vh;
+  margin-right: 5vh;
+  padding: 5px 15px 5px 15px;
+  font-family: 'GeneralSans-Medium';
+  background-color: var(--accent);
+  color: var(--text);
+  cursor: pointer;
+}
+div.thank-you-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
