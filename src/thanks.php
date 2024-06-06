@@ -10,7 +10,7 @@
 <body>
     <div class = "thank-you-container">
         <h1>Hey! Thanks for buying!</h1>
-        <iframe src="https://giphy.com/embed/rHR8qP1mC5V3G" width="480" height="410" style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+        <iframe src="https://giphy.com/embed/rHR8qP1mC5V3G" width="480" height="410"  frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
         <button class="btn-login"><a href="add.php">Add More</a></button>
     </div>
 </html>
