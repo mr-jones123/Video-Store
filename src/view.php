@@ -1,7 +1,8 @@
 <?php
 
 require "./functions/videosFunctions.php";
-print_r($_SESSION['videos']);
+
+
 ?>
 
 <!DOCTYPE html>
@@ -16,13 +17,13 @@ print_r($_SESSION['videos']);
 </head>
 
 <body>
-    <nav class="navbar">
+<nav class="navbar">
         <h1 class="website-header">Xy's Rental Store</h1>
         <ul>
             <li class="nav-item"><a href="index.php">home</a></li>
             <li class="nav-item"><a href="about.php">about us</a></li>
             <li class="nav-item"><a href="chatbot.php">chatbot</a></li>
-            <li class="nav-item"><a href="register.php"><button class="nav-btn">Sign Up</button></a></li>
+            <li class="nav-item"><button class="nav-btn"><a href="register.php"></a>Sign Up</button></a></li>
         </ul>
     </nav>
     <h2 class="view-header">Your Videos</h2>
@@ -46,8 +47,7 @@ print_r($_SESSION['videos']);
         </table>
     </div>
     <div class="view-container-button">
-        <button class ="view-button"><a href="#">Add More</a></button>
-        <button><a href="#">Another Button</a></button>
+        <button class ="view-button"><a href="home.php">Add More</a></button>  
     </div>
 </body>
 

@@ -181,6 +181,18 @@ h1{
   font-size: 3rem;
   color: var(--text);
 }
+h2{
+  overflow-wrap: break-word;
+  font-family: 'GeneralSans-Bold';
+  font-size: 3rem;
+  color: var(--secondary);
+}
+h3{
+  overflow-wrap: break-word;
+  font-family: 'GeneralSans-SemiBold';
+  font-size: 1.6rem;
+  color: var(--secondary);
+}
 
 nav.navbar{
     display: flex;
@@ -199,10 +211,11 @@ li.nav-item{
 }
 
 button.nav-btn{
-    padding: 20px 60px 20px 60px;
+    padding: 20px 40px 20px 30px;
     background-color: var(--primary);
     border-radius: 20px;
     border: none;
+    cursor: pointer;
 }
 
 div.container{
@@ -301,6 +314,14 @@ td{
 div.view-container-button{
   display: flex;
   justify-content: space-evenly;
+  margin-top: 10vh;
+}
+.view-button{
+  padding: 10px;
+  background-color: var(--secondary);
+  color: var(--text);
+  font-family: 'GeneralSans-Medium';
+  
 }
 div.delete-container{
   display: flex;
@@ -314,4 +335,9 @@ button.btn-delete{
   background-color: var(--accent);
   color: var(--text);
   cursor: pointer;
+}
+div.thank-you-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
