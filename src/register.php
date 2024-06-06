@@ -33,10 +33,10 @@
 <nav class="navbar">
         <h1 class="website-header">Xy's Rental Store</h1>
         <ul>
-            <li class="nav-item"><a href="index.php">home</a></li>
+            <li class="nav-item"><a href="menu.php">home</a></li>
             <li class="nav-item"><a href="about.php">about us</a></li>
             <li class="nav-item"><a href="chatbot.php">chatbot</a></li>
-            <li class="nav-item"><button class="nav-btn"><a href="register.php"></a>Sign Up</button></a></li>
+            <li class="nav-item"><button class="nav-btn"><a href="register.php">Sign Up</a></button></li>
         </ul>
     </nav>
     <div class="container">

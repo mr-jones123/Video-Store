@@ -28,7 +28,7 @@ function sendWelcomeEmail($userEmail, $userName) {
         $mail->Port       = 465;                               
 
         // Recipients
-        $mail->setFrom('202211012@fit.edu.ph', 'The Developer');
+        $mail->setFrom($EMAIL, 'The Developer');
         $mail->addAddress($userEmail, $userName);  
 
         // Content

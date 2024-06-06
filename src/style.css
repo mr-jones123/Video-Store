@@ -173,6 +173,7 @@ li{
 }
 p{
   font-family: 'GeneralSans-Regular';
+  overflow-wrap: break-word;
 }
 
 h1{
@@ -210,11 +211,38 @@ li.nav-item{
     font-size: 1.2rem;
 }
 button.nav-btn{
-    padding: 20px 40px 20px 30px;
+    padding: 15px 20px 15px 20px;
     background-color: var(--primary);
     border-radius: 20px;
     border: none;
     cursor: pointer;
+}
+div.welcome-container{
+  margin-top: 10vh;
+  display: flex;
+  justify-content: space-evenly ;
+}
+div.welcome-screen{
+  width: 20vw;
+  color: var(--text);
+}
+.welcome-screen p{
+  font-family: 'GeneralSans-Regular';
+  font-size: 1.2rem;
+}
+.welcome-screen button{
+  margin-top: 4vh;
+  font-family: 'GeneralSans-Medium';
+  background-color: var(--primary);
+  color: var(--background);
+  padding: 10px 15px 10px 15px;
+}
+div.welcome-image{
+  width: 40vw;
+  height: 20vh;
+  margin-left: 10vw;
+  padding: 0px 20px 0px 20px;
+
 }
 div.flex-box{
   display: flex;
