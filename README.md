@@ -25,3 +25,6 @@ This library will enable you to modify the email function of our project. You ne
 ### Environment Variables
 
 In developing projects, keeping your credentials (like API Keys, Emails, and Passwords) secret is paramount. You need to have a `.env` in the [root directory of the `src` folder](./src/). in there, you can see the `.env.example` file which serves as what your variables should look like. 
+
+
+### Deployment
