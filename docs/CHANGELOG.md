@@ -1,3 +1,10 @@
+## [1.2.3](https://github.com/mr-jones123/Video-Store/compare/v1.2.2...v1.2.3) (2024-06-06)
+
+
+### Bug Fixes
+
+* html inside src ([938d7db](https://github.com/mr-jones123/Video-Store/commit/938d7dbb7b51f8a8e6cb5a9da544753501c79667))
+
 ## [1.2.2](https://github.com/mr-jones123/Video-Store/compare/v1.2.1...v1.2.2) (2024-06-06)
 
 
