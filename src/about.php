@@ -24,7 +24,7 @@
         <p id="context">This website is made by Group 3 of Dr. Hadji's class. This website utilizes vanilla PHP and CSS.
         Through this project, we are able to learn how server-scripting works, and this is a precursor towards our back-end developement.
         This website is not complete yet, but it should be enough for the midterm project.</p>
-        <button class ="view-button"><a href="index.php">Back</a></button>  
+        <button class ="view-button"><a href="index.html">Back</a></button>  
     </div>
 </body>
 </html>
