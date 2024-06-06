@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/mr-jones123/Video-Store/compare/v1.1.0...v1.2.0) (2024-06-06)
+
+
+### Features
+
+* fix index.php placement to be deployed ([5acd59f](https://github.com/mr-jones123/Video-Store/commit/5acd59f37bbe88aff886abc9530ad816a2bf967f))
+
 # [1.1.0](https://github.com/mr-jones123/Video-Store/compare/v1.0.0...v1.1.0) (2024-06-06)
 
 
