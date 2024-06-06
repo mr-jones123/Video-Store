@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./src/style.css">
     <link rel="icon" type="image/x-icon" href="../img/actually.jpg">
 </head>
 
@@ -13,10 +13,10 @@
     <nav class="navbar">
         <h1 class="website-header">Xy's Rental Store</h1>
         <ul>
-            <li class="nav-item"><a href="menu.php">home</a></li>
-            <li class="nav-item"><a href="about.php">about us</a></li>
-            <li class="nav-item"><a href="chatbot.php">chatbot</a></li>
-            <li class="nav-item"><button class="nav-btn"><a href="register.php">Sign Up</a></button></li>
+            <li class="nav-item"><a href="./src/menu.php">home</a></li>
+            <li class="nav-item"><a href="./src/about.php">about us</a></li>
+            <li class="nav-item"><a href="./src/chatbot.php">chatbot</a></li>
+            <li class="nav-item"><button class="nav-btn"><a href="./src/register.php">Sign Up</a></button></li>
         </ul>
     </nav>
     <div class="welcome-container">
