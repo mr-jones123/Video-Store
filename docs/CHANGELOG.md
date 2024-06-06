@@ -1,3 +1,10 @@
+## [1.2.4](https://github.com/mr-jones123/Video-Store/compare/v1.2.3...v1.2.4) (2024-06-06)
+
+
+### Bug Fixes
+
+* moved index.php ([f5af185](https://github.com/mr-jones123/Video-Store/commit/f5af1857987a08003f0e37ceb43867314b64c8ba))
+
 ## [1.2.3](https://github.com/mr-jones123/Video-Store/compare/v1.2.2...v1.2.3) (2024-06-06)
 
 
