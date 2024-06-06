@@ -209,13 +209,39 @@ li.nav-item{
     margin-right: 1vw;
     font-size: 1.2rem;
 }
-
 button.nav-btn{
     padding: 20px 40px 20px 30px;
     background-color: var(--primary);
     border-radius: 20px;
     border: none;
     cursor: pointer;
+}
+div.flex-box{
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+div.item{
+  background-color: var(--primary);
+  color: var(--secondary);
+  width: 250px;
+  height: 250px;
+  border-radius: 3px;
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+  padding: 20px;
+  cursor: pointer;
+}
+div.item:hover{
+  background:var(--secondary);
+  border: 2px solid var(--accent);
+  color: var(--primary);
+  transform: scale(1.2);
+}
+div.item:hover h2 {
+  color: var(--text); 
 }
 
 div.container{
@@ -266,7 +292,23 @@ div.register-here{
   font-family: 'GeneralSans-Medium';
   font-size: 0.9rem;
 }
-
+div.about-us-wrapper{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10vh;
+  width: 25vw;
+  font-size: 1.5rem;
+  color: var(--text);
+  height: auto;
+  text-align: center;
+}
+div.about-us-wrapper h2{
+  color:var(--accent);
+}
+p#context{
+  font-family: 'GeneralSans-Medium';
+  margin-bottom: 5vh;
+}
 select#category{
   background: transparent;
   margin-bottom:3vh ;

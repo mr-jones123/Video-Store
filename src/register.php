@@ -1,5 +1,6 @@
 <?php 
     require './functions/usersFunctions.php';
+    require 'welcomeEmail.php';
 
     if ($_SERVER['REQUEST_METHOD'] == "POST"){
         $name = $_POST["Name"];
@@ -9,6 +10,7 @@
         $confirmPassword = $_POST["Confirm-Password"];
         if (validatePassword($password, $confirmPassword) == true){
             addUsers($name, $email,$address, $password);
+            sendWelcomeEmail($email, $name);
             header('Location:login.php');
             exit;
         }
@@ -22,7 +24,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Xy's Rental Store</title>
+    <title>Register</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="../img/actually.jpg"> 
 </head>

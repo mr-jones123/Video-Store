@@ -9,7 +9,7 @@
         echo "Users array: ";
         print_r($_SESSION['users']);
         if (validateUser($email, $password) == true){
-            header('Location: home.php');
+            header('Location: index.php');
             session_destroy();
         } else {
             echo "ERROR";

@@ -47,7 +47,7 @@ require "./functions/videosFunctions.php";
         </table>
     </div>
     <div class="view-container-button">
-        <button class ="view-button"><a href="home.php">Add More</a></button>  
+        <button class ="view-button"><a href="add.php">Add More</a></button>  
     </div>
 </body>
 
