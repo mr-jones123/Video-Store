@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/mr-jones123/Video-Store/compare/v1.2.0...v1.2.1) (2024-06-06)
+
+
+### Bug Fixes
+
+* delete vercel.json ([73da00a](https://github.com/mr-jones123/Video-Store/commit/73da00a61ce5c388d0e69334321f574cbb1a3bc9))
+
 # [1.2.0](https://github.com/mr-jones123/Video-Store/compare/v1.1.0...v1.2.0) (2024-06-06)
 
 
