@@ -9,8 +9,8 @@
         echo "Users array: ";
         print_r($_SESSION['users']);
         if (validateUser($email, $password) == true){
+            $_SESSION['loggedin'] = true;
             header('Location: menu.php');
-            session_destroy();
         } else {
             echo "ERROR";
             session_destroy();

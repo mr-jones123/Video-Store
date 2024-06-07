@@ -1,4 +1,11 @@
 <?php 
+session_start();
+
+if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
+    // User is not logged in. Redirect them to the login page
+    header("Location: login.php");
+    exit;
+}
 use GeminiAPI\Client;
 use GeminiAPI\Resources\Parts\TextPart;
 use Dotenv\Dotenv;
