@@ -21,6 +21,10 @@ composer require phpmailer/phpmailer
 ```
 This library will enable you to modify the email function of our project. You need to have an **email, an app password, and a SMTP Server to test it out**. To make an app password, [follow the instructions here provided by Google](https://support.google.com/mail/answer/185833?hl=en). Make sure to store these in your [`env`](#environment-variables) file.    
 
+Speaking of environemnt variables, you have to install [phpdotenv](https://github.com/vlucas/phpdotenv.git) to test out your environment variables.
+```
+composer require vlucas/phpdotenv
+```
 
 ### Environment Variables
 
@@ -28,3 +32,12 @@ In developing projects, keeping your credentials (like API Keys, Emails, and Pas
 
 
 ### Deployment
+
+The link is not yet ready in [`infinityFree`](https://dash.infinityfree.com/accounts), but it will be hosted soon. It has a waiting time of 72 hours.
+
+### The Developers 
+1. Xynil Jhed "mr.jones-123" Lacap - The Leader
+2. Kiel Adrien Yap - Contributor
+3. Nikka Nate - Contributor
+4. Nikki Anderson Daluz - Contributor
+5. Nin Ricci Garcia - Contributor
