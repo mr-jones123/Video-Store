@@ -1,3 +1,10 @@
+## [1.2.5](https://github.com/mr-jones123/Video-Store/compare/v1.2.4...v1.2.5) (2024-06-07)
+
+
+### Bug Fixes
+
+* check if user logged in ([9fa7734](https://github.com/mr-jones123/Video-Store/commit/9fa7734d2f3ff3bde2aa7ddbb2b32ba33de54cb3))
+
 ## [1.2.4](https://github.com/mr-jones123/Video-Store/compare/v1.2.3...v1.2.4) (2024-06-06)
 
 
